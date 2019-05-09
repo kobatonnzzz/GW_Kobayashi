@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<!--パラメータの送信手順-->
+<!--actionのsecond をwebのseｒvletnameに入力する-->
+<form action ="third" method = "post">
+
+<h1>申し込み入力画面</h1>
+<p>お名前:<input type ="text" name="param">
+<p>年齢:
+	<select  name ="param2" >
+		<option selected > </option>
+		<option >10代</option>
+		<option >20代</option>
+		<option >30代</option>
+		<option >40代</option>
+		<option >50代</option>
+		<option >60代</option>
+		<option >70代</option>
+	</select>
+	<p>性別:
+	<input type="radio" name="param3" value="男" checked="checked" >男
+	<input type="radio" name="param3" value="女" >女
+
+	<p>興味のある言語:
+	<input type="checkbox"  value="java" checked="checked" name="param4">java
+	<input type="checkbox"  value="PHP" name="param4">PHP
+	<input type="checkbox"  value="C言語" name="param4">C言語
+
+
+    <p>なにか一言:
+    <input type = "text" name = "param5">
+	<input type = "submit"  value = "送信">
+
+
+
+</form>
+</body>
+</html>
